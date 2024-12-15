@@ -91,6 +91,12 @@ export type PluginOptions = {
    * @default 75
    */
   rowHeight?: number;
+
+  /**
+   * wrap rows if width is below or equal to 768px
+   * @default true
+   */
+  wrapRows?: boolean;
 };
 
 const plugin: Plugin<PluginOptions> = (editor, opts = {}) => {
@@ -120,6 +126,7 @@ const plugin: Plugin<PluginOptions> = (editor, opts = {}) => {
     labelVideo: 'Video',
     labelMap: 'Map',
     rowHeight: 75,
+    wrapRows: true,
     ...opts
   };
 

@@ -12,23 +12,24 @@ This plugin contains some basic blocks for the GrapesJS editor
 
 ## Options
 
-| Option          | Description                      | Default                                                                                         |
-| --------------- | -------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `blocks`        | Which blocks to add              | `['column1', 'column2', 'column3', 'column3-7', 'text', 'link', 'image', 'video', 'map']` (all) |
-| `category`      | Category name                    | `Basic`                                                                                         |
-| `flexGrid`      | Make use of flexbox for the grid | `false`                                                                                         |
-| `stylePrefix`   | Classes prefix                   | `gjs-`                                                                                          |
-| `addBasicStyle` | Use basic CSS for blocks         | `true`                                                                                          |
-| `labelColumn1`  | 1 Column label                   | `1 Column`                                                                                      |
-| `labelColumn2`  | 2 Columns label                  | `2 Columns`                                                                                     |
-| `labelColumn3`  | 3 Columns label                  | `3 Columns`                                                                                     |
-| `labelColumn37` | 3/7 Columns label                | `2 Columns 3/7`                                                                                 |
-| `labelText`     | Text label                       | `Text`                                                                                          |
-| `labelLink`     | Link label                       | `Link`                                                                                          |
-| `labelImage`    | Image label                      | `Image`                                                                                         |
-| `labelVideo`    | Video label                      | `Video`                                                                                         |
-| `labelMap`      | Map label                        | `Map`                                                                                           |
-| `rowHeight`     | Initial height                   | `75`                                                                                          |
+| Option          | Description                                   | Default                                                                                         |
+|-----------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------|
+| `blocks`        | Which blocks to add                           | `['column1', 'column2', 'column3', 'column3-7', 'text', 'link', 'image', 'video', 'map']` (all) |
+| `category`      | Category name                                 | `Basic`                                                                                         |
+| `flexGrid`      | Make use of flexbox for the grid              | `false`                                                                                         |
+| `stylePrefix`   | Classes prefix                                | `gjs-`                                                                                          |
+| `addBasicStyle` | Use basic CSS for blocks                      | `true`                                                                                          |
+| `labelColumn1`  | 1 Column label                                | `1 Column`                                                                                      |
+| `labelColumn2`  | 2 Columns label                               | `2 Columns`                                                                                     |
+| `labelColumn3`  | 3 Columns label                               | `3 Columns`                                                                                     |
+| `labelColumn37` | 3/7 Columns label                             | `2 Columns 3/7`                                                                                 |
+| `labelText`     | Text label                                    | `Text`                                                                                          |
+| `labelLink`     | Link label                                    | `Link`                                                                                          |
+| `labelImage`    | Image label                                   | `Image`                                                                                         |
+| `labelVideo`    | Video label                                   | `Video`                                                                                         |
+| `labelMap`      | Map label                                     | `Map`                                                                                           |
+| `rowHeight`     | Initial height                                | `75`                                                                                            |
+| `wrapRows`      | Wrap rows if width is below or equal to 768px | `true`                                                                                          |
 
 ## Download
 
