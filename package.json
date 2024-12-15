@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "grapesjs-cli build",
-    "start": "grapesjs-cli serve"
+    "start": "grapesjs-cli serve",
+    "prepare": "grapesjs-cli build"
   },
   "repository": {
     "type": "git",
